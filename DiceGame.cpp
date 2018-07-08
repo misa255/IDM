@@ -18,5 +18,8 @@ int main()
 
 	cout << "Tolal value: " << rnd1+rnd2 << endl;
 
+	if(rnd1 + rnd2 >= 7) cout << "You won" << endl;
+	else cout << "You lost" << endl;
+
 	return 0;
 }
