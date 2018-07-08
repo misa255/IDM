@@ -4,6 +4,15 @@ using namespace std;
 
 int main()
 {
+
+	cout << "What is your name?" << endl;
+	cout << "> ";
+	
+	string name;
+	cin >> name;
+
+	cout << "Hello, " << name << '!' << endl;
+
 	cout << "Rolling the dice..." << endl;
 
 	int rnd1, rnd2;
